@@ -1,3 +1,5 @@
+Has only been tested for Mac and Linux based operating systems. Has not been tested on Windows.
+
 Test use case for local: ./AutoBackupMain.py source destination 0
 This test case will copy the source to the destination with a new timestampped name
 
