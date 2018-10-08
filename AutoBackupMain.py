@@ -5,17 +5,16 @@
 # todo: add timing feature so that backup occurs at the same time each day
 # todo: add feature to filter by file type
 # todo: add user interface
-# todo: add ssh support using ssh key
-# todo: add ssh support using ssh password
 # todo: add error checking
 
 import sys
 import shutil
 import datetime
 
-#TODO: Implement
 def connectSSH(source, destination):
-	pass
+    #todo: Make behavior more like local backup where there are multiple ones with timestamped names
+    #todo: Add error checking
+    output = subprocess.call('scp -r source destination', shell = True)
 
 #Currently only supports backup to directory on local machine
 def Backup(source, destination, sshBool):
