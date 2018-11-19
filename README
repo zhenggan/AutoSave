@@ -7,8 +7,6 @@ Input Arguments:
 4: SSH or local backup, 0 for local, 1 for SSH
 5: Optional: time in format: Hour:MinuteAmPM, example: 8:30pm. Used for scheduled backups
 
-<<<<<<< HEAD
-
 Example use case for instant local backup: ./AutoBackupMain.py source destination 0
 Example use case for instant SSH backup: ./AutoBackupMain.py source destination 1
 Example use case for scheduled local backup: nohup ./AutoBackupMain.py source destination 0 8:30pm &
@@ -18,8 +16,5 @@ For scheduled backups, you need to run the script everytime you start your compu
 For Mac you can create a shell script and put it in System Preference->Users and Groups->Login items to do
 this automatically.
 
-
-=======
->>>>>>> bebf210c1cf14ead55b4e1c3497475199fb00595
 For SCP backup, a key based SSH connection must be set up between client and host.
 Please see: https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
